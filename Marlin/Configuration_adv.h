@@ -3335,12 +3335,19 @@
 /**
  * User-defined menu items that execute custom GCode
  */
-//#define CUSTOM_USER_MENUS
+#define CUSTOM_USER_MENUS
 #if ENABLED(CUSTOM_USER_MENUS)
   //#define CUSTOM_USER_MENU_TITLE "Custom Commands"
   #define USER_SCRIPT_DONE "M117 User Script Done"
   #define USER_SCRIPT_AUDIBLE_FEEDBACK
   //#define USER_SCRIPT_RETURN  // Return to status screen after a script
+
+  #define USER_DESC_1 "Home offsets here"
+  #define USER_GCODE_1 "M428"
+  
+  #define USER_DESC_2 "Save settings"
+  #define USER_GCODE_2 "M500"
+  
 #endif
 
 /**
