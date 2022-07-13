@@ -218,7 +218,7 @@
   #define HEATER_0_PIN                      PB3   // Heater0
 #endif
 #ifndef HEATER_1_PIN
-  #define HEATER_1_PIN                      PB4   // Heater1
+  #define HEATER_1_PIN                      PB3 //PB4 // Heater1 // PrusaSlicer does not support separated fans for each extruder, so use the same one for both
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                    PD7   // Hotbed
