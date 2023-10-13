@@ -1,7 +1,12 @@
 # Hellbot Magna Dual Chimera
 
-* Dual Nozzle Chimera Hotend
-* 2 mk8 dual-gear extruders
+**Magna Dual Chimera** is a customized Hellbot's **Magna Dual**.
+Here's the list of non-stock components:
+- Motherboard: BTT SKR2 motherboard
+- MK8 dual-gear extruders
+- TriangleLab's Chimera Hotend with custom hotend housing with dual 5050 blower fans.
+
+Some of customized firmware settings:
 * filament_runout_sensor: ON
 * powerloss recovery: OFF
 * bed size: 200x220
