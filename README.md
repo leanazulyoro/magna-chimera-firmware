@@ -1,6 +1,6 @@
-# Hellbot Magna Dual Chimera
+# Magna Chimera
 
-**Magna Dual Chimera** is a customized Hellbot's **Magna Dual**.
+**Magna Chimera** is a customized Hellbot's **Magna Dual**.
 Here's the list of non-stock components:
 - Motherboard: BTT SKR2 motherboard
 - MK8 dual-gear extruders
